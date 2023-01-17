@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FatBlob
   m_Shader: {fileID: 4800000, guid: 36bfc6e9a6a132948bbca259e0c48ab0, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -75,18 +76,19 @@ Material:
         m_Texture: {fileID: 2800000, guid: 23e5cb26953f7dd44a3e6a8f9ff867e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0
     - _DetailNormalMapScale: 1
-    - _Displacement: 0.181
+    - _Displacement: 0
     - _DisplacementIndex: 0
     - _DisplacementScale: 8.76
     - _DisplacementSpeed: 8
     - _DstBlend: 0
     - _EdgeSize: 0.031
     - _GlossMapScale: 1
-    - _Glossiness: 0.905
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -101,3 +103,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EdgeColor1: {r: 4, g: 1.2758945, b: 0, a: 1}
     - _EmissionColor: {r: 7.9066987, g: 5.0089555, b: 0, a: 1}
+  m_BuildTextureStacks: []
